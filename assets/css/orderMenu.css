@@ -1,0 +1,50 @@
+/* Section threatments */
+section.threatments .threatment-item .card {
+  border-radius: 5px;
+}
+section.threatments .threatment-item .description {
+  width: 90%;
+}
+section.threatments .threatment-item .stats p {
+  width: fit-content;
+}
+
+section.threatments .cart-btn-wrapper {
+  position: fixed;
+  width: auto;
+  z-index: 999999;
+}
+section.threatments .cart-btn-wrapper i {
+  font-size: 20px;
+    vertical-align: middle;
+}
+
+@media only screen and (min-width: 991px) {
+  section.threatments .categories h3 {
+    font-size: 15px;
+  }
+  section.threatments .threatment-item .card:hover  {
+    cursor: pointer;
+  }
+
+  section.threatments .cart-btn-wrapper {
+    right: 50px;
+    bottom: 50px;
+  }
+
+  section.threatments button {
+      height: 60px;
+      width: 300px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  section.threatments .categories h3 {
+    font-size: 13px;
+  }
+  section.threatments .cart-btn-wrapper {
+    right: 0;
+    left: 0;
+    bottom: 50px;
+  }
+}

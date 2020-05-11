@@ -1,0 +1,25 @@
+/* Global */
+h1 {
+  font-size: 25px;
+}
+
+p, input, select {
+  font-size: 15px;
+}
+
+/* Section header */
+section.header {
+  height: 600px;
+}
+section.header h1 {
+  font-size: 37px;
+}
+section.header .rating i{
+  font-size: 17px;
+}
+
+/* Section menu */
+section.menu .menu-item p {
+  font-size: 15px;
+}
+
