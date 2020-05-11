@@ -1,7 +1,3 @@
-# mysalon
-
-> My extraordinary Nuxt.js project
-
 ## Build Setup
 
 ```bash
